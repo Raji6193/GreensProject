@@ -25,5 +25,17 @@ public class SampleGIT {
 	public void method6() {
 		System.out.println("Method 6");
 	}
+	
+	public void method10() {
+		System.out.println("Method 10");
+	}
+	
+	public void method11() {
+		System.out.println("Method 11");
+	}
+	
+	public void method12() {
+		System.out.println("Method 12");
+	}
 
 }
