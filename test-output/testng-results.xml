@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T12:51:51Z" name="Default suite" finished-at="2022-11-09T12:52:15Z" duration-ms="23781">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T12:51:51Z" name="Default test" finished-at="2022-11-09T12:52:15Z" duration-ms="23781">
+      <class name="org.testng.TestNGTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:51:51Z" name="launchBrowser" finished-at="2022-11-09T12:52:02Z" duration-ms="10847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="before()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:02Z" name="before" finished-at="2022-11-09T12:52:02Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="loginPage()[pri:1, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:02Z" name="loginPage" finished-at="2022-11-09T12:52:06Z" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="after()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:06Z" name="after" finished-at="2022-11-09T12:52:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="searchHotelPage()[pri:2, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:06Z" name="searchHotelPage" finished-at="2022-11-09T12:52:07Z" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotelPage -->
+        <test-method is-config="true" signature="before()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:06Z" name="before" finished-at="2022-11-09T12:52:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="before()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:07Z" name="before" finished-at="2022-11-09T12:52:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:07Z" name="after" finished-at="2022-11-09T12:52:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="selectHotelPage()[pri:3, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:07Z" name="selectHotelPage" finished-at="2022-11-09T12:52:08Z" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotelPage -->
+        <test-method is-config="true" signature="before()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:08Z" name="before" finished-at="2022-11-09T12:52:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:08Z" name="after" finished-at="2022-11-09T12:52:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="bookHotelPage()[pri:4, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:08Z" name="bookHotelPage" finished-at="2022-11-09T12:52:09Z" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotelPage -->
+        <test-method is-config="true" signature="after()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:09Z" name="after" finished-at="2022-11-09T12:52:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method signature="orderNumberPage()[pri:5, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:09Z" name="orderNumberPage" finished-at="2022-11-09T12:52:15Z" duration-ms="5860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderNumberPage -->
+        <test-method is-config="true" signature="before()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:09Z" name="before" finished-at="2022-11-09T12:52:09Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="after()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:15Z" name="after" finished-at="2022-11-09T12:52:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:org.testng.TestNGTest@b4711e2]" started-at="2022-11-09T12:52:15Z" name="quitBrowser" finished-at="2022-11-09T12:52:15Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- org.testng.TestNGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

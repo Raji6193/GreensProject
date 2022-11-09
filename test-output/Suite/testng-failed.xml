@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="roomCount" value="3 - Three"/>
+    <parameter name="vLastname" value="def"/>
+    <parameter name="vAddress" value="xyz,123"/>
+    <parameter name="vAdultCount" value="2 - Two"/>
+    <parameter name="userName" value="Raji6193"/>
+    <parameter name="checkInDate" value="20-10-2022"/>
+    <parameter name="password" value="Raji6193"/>
+    <parameter name="vFirstName" value="abc"/>
+    <parameter name="checkOutDate" value="25-10-2022"/>
+    <parameter name="vHotel" value="Hotel Sunshine"/>
+    <parameter name="vRoomType" value="Deluxe"/>
+    <parameter name="vCvv" value="123"/>
+    <parameter name="vChildCount" value="2 - Two"/>
+    <parameter name="vCreditCardNumber" value="1.23457E+15"/>
+    <parameter name="vLocation" value="New York"/>
+    <classes>
+      <class name="org.adactin.testng.AdactinTestNg">
+        <methods>
+          <include name="orderNumPage"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- org.adactin.testng.AdactinTestNg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

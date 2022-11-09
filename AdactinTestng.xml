@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="userName" value="Raji6193"></parameter>
+  <parameter name="password" value="Raji6193"></parameter>
+  <parameter name="vLocation" value="New York"></parameter>
+  <parameter name="vHotel" value="Hotel Sunshine"></parameter>
+  <parameter name="vRoomType" value="Deluxe"></parameter>
+  <parameter name="roomCount" value="3 - Three"></parameter>
+  <parameter name="checkInDate" value="20-10-2022"></parameter>
+  <parameter name="checkOutDate" value="25-10-2022"></parameter>
+  <parameter name="vAdultCount" value="2 - Two"></parameter>
+  <parameter name="vChildCount" value="2 - Two"></parameter>
+  <parameter name="vFirstName" value="abc"></parameter>
+  <parameter name="vLastname" value="def"></parameter>
+  <parameter name="vAddress" value="xyz,123"></parameter>
+  <parameter name="vCreditCardNumber" value="1234567812345678"></parameter>
+  <parameter name="vCardType" value="Master Card"></parameter>
+  <parameter name="vExpiryMonth" value="December"></parameter>
+  <parameter name="vExpiryYear" value="2022"></parameter>
+  <parameter name="vCvv" value="123"></parameter>  
+    <classes>
+      <class name="org.adactin.testng.parameters.dataproviders.AdactinTestNgWithParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
