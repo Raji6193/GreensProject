@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -17,8 +18,8 @@ public class TestNGSoftAssertWithParameterAnnotation {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://adactinhotelapp.com/");
-		//SoftAssert sa= new SoftAssert();
-		//sa.assertTrue(driver.getCurrentUrl().contains("fb"), "Verify URL");
+		SoftAssert sa= new SoftAssert();
+		sa.assertTrue(driver.getCurrentUrl().contains("fb"), "Verify URL");
 
 		WebElement txtUsername = driver.findElement(By.id("username"));
 		txtUsername.sendKeys(s);
@@ -27,11 +28,11 @@ public class TestNGSoftAssertWithParameterAnnotation {
 
 		WebElement btnLogin = driver.findElement(By.id("login"));
 		txtPassword.sendKeys(s1);
-		//sa.assertEquals(txtPassword.getAttribute("value"),"Raji6193","VerifyPassword");
+		sa.assertEquals(txtPassword.getAttribute("value"),"Raji6193","VerifyPassword");
 		btnLogin.click();
 		
 		//To Highlight assert
-		//sa.assertAll();
+		sa.assertAll();
 	}
 
 }
